@@ -5,6 +5,8 @@ pipeline {
         stage('build') {
             steps {
                java -version
+               python --help
+                
             }
         }
     }
